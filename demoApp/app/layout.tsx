@@ -1,28 +1,21 @@
-import "../styles/globals.css";
-import { Metadata } from "next";
+import '../styles/globals.css';
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Liftoff - AI-Powered Mock Interviews",
+  title: 'HolisTECH - AI-Powered Candidate Assessment',
   openGraph: {
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: 'HolisTECH - AI-Powered Candidate Assessment',
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      'HolisTECH is an AI-powered data model to evaluate applicants beyond standardized metrics.',
     images: [
       {
-        url: "https://demo.useliftoff.com/opengraph-image",
+        url: 'https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg',
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Liftoff - AI-Powered Mock Interviews",
-    description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
-    images: ["https://demo.useliftoff.com/opengraph-image"],
-    creator: "@tmeyer_me",
-  },
-  metadataBase: new URL("https://demo.useliftoff.com"),
-  themeColor: "#FFF",
+
+  metadataBase: new URL('https://google.com'),
+  themeColor: '#FFF',
 };
 
 export default async function RootLayout({
@@ -31,7 +24,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className="scroll-smooth antialiased [font-feature-settings:'ss01']">
         {children}
       </body>
