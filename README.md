@@ -1,10 +1,7 @@
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/)
 
-_INSTRUCTIONS: This GitHub repository serves as a template you can use to create a new project for the [2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/). Use the **Use this template** button to create a new version of this repository and start entering content for your own Call for Code submission project. Make sure you have [registered for the 2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/register/) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project._
 
-_New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
-
-# Replace this heading with your team/submission name
+# HolisTECH Review
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
@@ -27,87 +24,60 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-_INSTRUCTIONS: Complete all required deliverable sections below._
-
 ## Project summary
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+In an application process, biases often sway the selection of candidates, favoring those who fit certain criteria. We aim to leverage AI to evaluate applicants beyond standardized metrics.
 
 ### How our technology solution can help
 
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+Our technology solution involves evaluating an applicant's background by considering additional factors such as their upbringing and environment. By acknowledging the starting points for individuals, we seek to level the playing field by analyzing each candidate based on a comprehensive set of data points. Our HolisTECH software not only quantifies measurable data but also captures intangible qualities beneficial to institutions.
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+HolisTECH employs a machine learning AI system that assimilates an applicant's initial information, assesses their background, and compares them to candidates from similar environments. Through a classification model, we accurately place applicants in alignment with past, current, and ideal candidates. Extensive research has allowed us to integrate various data points, uncovering unique patterns not solely reliant on a single GPA. Additionally, HolisTECH identifies biased factors within an existing dataset, such as the disproportionate emphasis placed on college GPA compared to a recommendation letter.
 
 More detail is available in our [description document](./docs/DESCRIPTION.md).
 
 ## Technology implementation
 
 ### IBM AI service(s) used
-
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
-
-- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
-
-### Other IBM technology used
-
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
+- [Watson Machine Learning AI](https://cloud.ibm.com/catalog/services/watson-machine-learning):
+      - Prediction model for application recommendations (e.g., recommend, additional documents required, waitlist, etc.)
+      - Data visualization capabilities
 
 ### Solution architecture
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+Onboarding:
+1. Institutions provide relevant data on positions or previous candidates.
+2. HolisTECH trains the machine learning AI model to identify beneficial characteristics.
+3. The institution integrates the HolisTECH application to automate the assessment of new applicants.
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+Application Process:
+1. New candidates submit their applications to the institution.
+2. HolisTECH AI applies the institution's customized algorithm and delivers recommendations.
+3. The institution finalizes and submits the new candidate's application.
+
+Review Process:
+1. Institutions access a custom dashboard displaying all applicants.
+2. Applications come with a general recommendation for human review.
+3. The institution conducts further evaluations, gaining a clear understanding of each candidate's strengths and weaknesses.
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
-
-### Solution demo video
-
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+//tba
 
 ### Project development roadmap
 
 The project currently does the following things.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Prediction model for recommendations (i.e. yes recommend, more documents required, waitlist, etc)
+- Data visualization
 
-In the future we plan to...
-
-See below for our proposed schedule on next steps after Call for Code 2023 submission.
-
-![Roadmap](./images/roadmap.jpg)
-
-## Additional details
-
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
-
-### How to run the project
-
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-### Live demo
-
-You can find a running system to test at...
-
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
+In the future we plan to add an overlay of zipcode assessment to provide further clarity on the environment a candidate is applying from and the socioeconomic factors they might be dealing with from day to day. We also want to provide advanced clustering options that sections applicants out according to committee requirements.
 
 ---
 
