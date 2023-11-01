@@ -9,7 +9,7 @@ export const metadata: Metadata = {
       'HolisTECH is an AI-powered data model to evaluate applicants beyond standardized metrics.',
     images: [
       {
-        url: 'https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg',
+        url: 'https://dw1.s81c.com/developer-static-pages/default/en/generative-ai-for-developers/images/AI-CARD-1.jpg',
       },
     ],
   },

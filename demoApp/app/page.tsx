@@ -134,7 +134,7 @@ export default function Home() {
                   boxShadow: '0 1px 1px #0c192714, 0 1px 3px #0c192724',
                 }}
               >
-                <span className=''> Demo Currently Unavailable </span>
+                <span className=''> Demo Unavailable </span>
               </Link>
             </motion.div>
           </div>
