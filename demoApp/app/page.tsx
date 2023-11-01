@@ -59,7 +59,7 @@ export default function Home() {
                 Platform
               </h2>
               <p className='text-[14px] leading-[20px] text-[#1a2b3b] font-normal'>
-                Full access to our platform, including all visualizations and
+                Full access to our platform, including visualizations and
                 data-insights.
               </p>
             </div>
